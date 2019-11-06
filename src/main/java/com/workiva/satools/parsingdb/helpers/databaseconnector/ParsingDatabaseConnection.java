@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class ParsingDatabaseConnection {
     private final String connectionString = "jdbc:mysql://sa-tools-test-aurora.cdsa0kvhqzyp.us-east-1.rds.amazonaws.com:3306/DataModeler";
-    private final String user = "SAToolsMaster";
-    private final String password = "SAToolsPassword";
+    private final String user = "";
+    private final String password = "";
     private final String mysql_driver = "com.mysql.jdbc.Driver";
 
     public Connection GetDatabaseConnection() throws SQLException, ClassNotFoundException {
